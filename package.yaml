@@ -1,0 +1,23 @@
+name:                bc-price
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/TheGhostHuCodes/bc-price#readme
+author:              Yung-Jin (Joey) Hu
+maintainer:          yungjinhu@gmail.com
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - lens
+  - lens-aeson
+  - bytestring
+  - text
+  - http-conduit
+
+executables:
+  bc-price:
+    source-dirs:      src
+    main:             Main.hs
