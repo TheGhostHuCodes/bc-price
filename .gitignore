@@ -1,0 +1,8 @@
+# Haskell stack generated files
+.stack-work/
+bc-price.cabal
+*~
+
+# OS and editor metadata
+*.DS_Store
+*.swp
